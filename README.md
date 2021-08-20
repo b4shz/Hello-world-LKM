@@ -9,3 +9,9 @@ root@kali:~# make
 root@kali:~# insmod hello.ko
 root@kali:~# tail -n2 /var/log/kern.log
 ```
+
+To remove:
+```
+root@kali:~# rmmod hello.ko
+root@kali:~# tail -n2 /var/log/kern.log
+```
